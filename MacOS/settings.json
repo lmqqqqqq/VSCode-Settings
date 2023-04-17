@@ -1,0 +1,107 @@
+{
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.executorMap": {
+            "javascript": "node",
+            "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+            "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "cpp": "cd $dir && g++ --std=c++20 -Wl,-stack_size,0x10000000000 -fdiagnostics-color=always -g $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+            "php": "php",
+            "python": "python -u",
+            "ruby": "ruby",
+            "go": "go run",
+            "typescript": "ts-node",
+            "swift": "swift",
+            "r": "Rscript",
+            "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",    
+        },
+    "code-runner.runInTerminal": true,
+    "background.enabled": true,
+    "background.customImages": [          
+        "file:///Users/lmqsmacbook/Pictures/blackhole.jpeg"      
+    ],    
+    "background.style": {        
+        "content":"''",        
+        "pointer-events":"none",        
+        "position": "absolute",        
+        "width":"100%",        
+        "height":"100%",        
+        "z-index":"99999",        
+        "background.repeat":"no-repeat",        
+        "background-size":"100%,100%",        
+        "opacity":0.2     
+        },    
+    "background.useFront": true,    
+    "background.useDefault": false,
+    "background.loop": true,
+    "remote.SSH.showLoginTerminal": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.visual": "#b55d02",
+    "vim.statusBarColors.visualblock": "#a02236",
+    "vim.statusBarColors.visualline": "#9C195B",
+    "vim.statusBarColors.replace": "#6f1f45",
+    "vim.statusBarColors.insert": "#6d8400",
+    "vim.statusBarColors.normal": "#007575",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#007575",
+        "statusBar.noFolderBackground": "#007575",
+        "statusBar.debuggingBackground": "#007575"
+    },
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontSize": 20,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "italic font",
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "storage",
+                    "keyword.control.import",
+                    "keyword.control.default",
+                    "keyword.control.from",
+                    "keyword.operator.new",
+                    "keyword.control.export",
+                    "keyword.control.flow",
+                    "storage.type.class",
+                    "storage.type.function",
+                    "storage.type",
+                    "storage.type.class",
+                    "variable.language",
+                    "variable.language.super",
+                    "variable.language.this",
+                    "meta.class",
+                    "meta.var.expr",
+                    "constant.language.null",
+                    "support.type.primitive",
+                    "entity.name.method.js",
+                    "entity.other.attribute-name",
+                    "punctuation.definition.comment",
+                    "text.html.basic entity.other.attribute-name.html",
+                    "text.html.basic entity.other.attribute-name",
+                    "tag.decorator.js entity.name.tag.js",
+                    "tag.decorator.js punctuation.definition.tag.js",
+                    "source.js constant.other.object.key.js string.unquoted.label.js",
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },
+        ]
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "/Users/lmqsmacbook/ACM",
+    "leetcode.defaultLanguage": "cpp",
+    "[python]": {
+        "editor.formatOnType": true
+    }
+
+    
+}
