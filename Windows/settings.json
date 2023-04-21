@@ -89,7 +89,6 @@
         "statusBar.noFolderBackground": "#007575",
         "statusBar.debuggingBackground": "#007575"
     },
-    //"terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.fontSize": 20,
     "editor.fontWeight": "normal",
     "editor.fontFamily": "Operator Mono",
@@ -138,5 +137,6 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "gitlens.defaultDateLocale": null
+    "gitlens.defaultDateLocale": null,
+    "terminal.integrated.fontFamily": "monospace"
 }
